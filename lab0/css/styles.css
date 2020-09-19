@@ -1,0 +1,12 @@
+body {
+  color: #3c0547;
+  font: 20px Author,cursive;
+  background-color: #dfb0d8;
+  margin-left: 43%;
+}
+#clock{
+  color: #3d1796;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 0%;
+}
