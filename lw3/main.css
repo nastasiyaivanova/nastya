@@ -1,0 +1,289 @@
+.header__link {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4f5665;
+  margin: 0 20px;
+}
+.header__links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+.header__button {
+  display: flex;
+  align-items: center;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+  width: 100%;
+}
+.header__container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+.button_filled {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f53855;
+}
+.button_empty {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0b132a;
+  border: none;
+  background-color: white;
+  outline: none;
+}
+.button_filled {
+  border: 1px solid #f53855;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: white;
+  width: 150px;
+  height: 45px;
+  outline: none;
+}
+.hero__title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  color: #0b132a;
+}
+.hero__text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+  padding: 20px 0;
+}
+.hero__title_bold {
+  font-weight: 700;
+}
+.hero__button {
+  border: 1px solid;
+  background-color: rgb(247, 31, 31);
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  border: none;
+  font-weight: bold;
+  box-shadow: 0 10px 25px rgba(247, 31, 31, 0.377);
+}
+.hero {
+  display: flex;
+}
+.hero__block {
+  margin: 90px 45px;
+}
+.hero__image {
+  width: 100%;
+}
+.statistic__description {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4f5665b6;
+}
+.statistic__number {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #0b132a;
+}
+.statistic {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 40px 15px;
+  box-shadow: 0 50px 25px 0 rgba(143, 138, 138, 0.144);
+  width: 100%;
+  /* max-width: 1100px; */
+  margin: auto;
+  border-radius: 10px;
+  background-color: white;
+}
+.statistic__img {
+  width: 55px;
+  margin-right: 10px;
+}
+.statistic__item {
+  display: flex;
+  align-items: center;
+  float: right;
+}
+.subtitle {
+  margin: 100px;
+}
+.subtitle__text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
+}
+.subtitle__text_large {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #0b132a;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 20px;
+  width: 330px;
+  height: 760px;
+  background: #ffffff;
+  border: 2px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.card__img {
+  height: 165px;
+}
+.card__col {
+  display: flex;
+  flex-direction: column;
+}
+.card__text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f5665;
+  align-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 80px;
+}
+.card__title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #0b132a;
+}
+.card__text_grey {
+  color: rgb(160, 157, 157);
+}
+.card__price {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #0b132a;
+}
+.card__button {
+  background-color: white;
+  width: 177px;
+  height: 45px;
+  border: 2px solid #f53838;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-weight: 700;
+  color: #f53838;
+  margin-left: 75px;
+}
+.card__button_fill {
+  background-color: #f53838;
+  color: white;
+  box-shadow: 0 10px 25px rgba(247, 31, 31, 0.171);
+}
+.card_primary {
+  border: 2px solid #f53838;
+}
+.footer {
+  margin: 100px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+.footer__text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
+.footer__description {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+  margin: 15px;
+  width: 400px;
+}
+.footer__ellipse {
+  width: 70px;
+}
+.footer__copyright {
+  width: 132px;
+  height: 30px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #afb5c0;
+}
+.footer__right {
+  display: flex;
+  flex-direction: row;
+}
+.footer__col {
+  display: grid;
+  align-content: flex-start;
+  gap: 10px;
+  margin: 0 20px;
+}
+.footer__title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
